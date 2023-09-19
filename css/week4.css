@@ -1,11 +1,15 @@
-p{
-    color:red;
+html {
+    font-size:50px;
 }
 
-.test-class {
-    color:purple;
+p {
+    color: red;
+}
+
+.test-class{
+    color: purple;
 }
 
 #test-id {
-    size: 100px;
+    font-size: 100px;
 }
