@@ -36,16 +36,21 @@
                     <li> Additionally, there was no closing tr tag after the second table row so there was an error still saying an h2 starting tag was the table, so I added a /tr tag to clos it.</li>
                     <li> Another h2 issue was that the table tag was never closed only open so the above issue persisted and I added the /table closing tag after all the table data.</li>
                     <li> The image was not showing up because there was no specific foler to go into. I added the img folder for the correct pathway </li>
+                    <li> There was no lang attribute in the html opening tag so I added one in for en</li>
      
                 </ol>
             </li>
             <li> Page 2:
                 <ol>
                     <li> The bolding of New Beehive Inn was not properly closed. There were the tags but no /b in them, so I added the content to correctly close it </li>
-                    <li> There was an closing p tag with open elements inside of it which was fixed when I added the /b into tje closing bold element</li>
+                    <li> There was an closing p tag with open elements inside of it which was fixed when I added the /b into the closing bold element</li>
                     <li> There was an unclosed element which was the incomplete bolded element and this error was fixed when I correctly clsoed the bold element</li>
                     <li> Furthermore, because b wasn't closed p,h2,h3,h6,hr was technically a child of b which is now allowed, and this error was also fixed when correctly closing b</li>
-                    <li> There was an error that said there were unclosed elements within the closed body tag which is not allowed, so when I fixed the bold closing tag that was corrected. </li>
+                    <li> There was an h2 element inside of a bold element which is redundant but also you cannot have h2 be a child of b so I deleted the b element.</li>
+                    <li> In the history section the h6 tag was not closed so I closed it.</li>
+                    <li> Additionally, because the h6 was not closed everything below it was a child of h6 which is not allowed for any of the elements.</li>
+                    <li> There was an error that said there were unclosed elements within the closed body tag which is not allowed, so when I fixed the bold and the h6 closing tag that was corrected. </li>
+
                     <li> Logic error:</li>
                 </ol>
             </li>
@@ -63,7 +68,7 @@
                     <li> None of the images had alt attributes so I added those descriptions in.</li>
                     <li> The orange cat was in the table but did not have any closing or starting td tags so I added them around the image</li>
                     <li> The dogs singing did not have a closing td tag so I added one.</li>
-                    <li> The create did not have an opening td tag so I added one</li>
+                    <li> The creature did not have an opening td tag so I added one</li>
                     <li> Logic error: </li>
                 </ol>
             </li>
