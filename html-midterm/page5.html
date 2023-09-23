@@ -19,17 +19,8 @@
     </div>
   
         <h1> Change Log:</h1>
-        <p> A few (1-2) sentences each describing what was wrong and what I changed</p>
-        <ul>
-            <li> page 1: 5 errors all having to do with the html code</li>
-            <li> page 2: 3 errors involving the code, 1 logic error with the page structure</li>
-            <li> page 3: 2 errors having to do with the code and 1 logic error with how the page is structured</li>
-            <li> page 4: 3 errors about the code and 1 logic error with page strucutre </li>
-            <li> page 5: correct nav bar, all the errors and their fixes explained in a cohesive way</li>
-        </ul>
 
-        <ul>
-            <li>Page 1:
+            <h2>Page 1:</h2>
                 <ol>
                     <li> In item 3 of the bulleted list, there was no closing list tag so I added one </li>
                     <li> In cell 3 of the table there is no closing td tag so there is a fatal error that says there is a starting h2 tag within the table. I added a closing td tag to fix the error </li>
@@ -38,16 +29,15 @@
                     <li> The image was not showing up because there was no specific foler to go into. I added the img folder for the correct pathway </li>
                     <li> There was no lang attribute in the html opening tag so I added one in for en</li>
                     <li> There was no closing p tag after the "this div contains a nested paragraph" so I added one in.</li>
-     
                 </ol>
-            </li>
-            <li> Page 2:
+
+            <h2>Page 2:</h2>
                 <ol>
                     <li> The bolding of New Beehive Inn was not properly closed. There were the tags but no /b in them, so I added the content to correctly close it. This /b not being closed properly led to other issues that got fixed when I closed the b element, like:
                     <ul>
                         <li> There was an closing p tag with open elements inside, the b element, so it got fixed when added the closing tag.</li>
                         <li> The b tag was an unclosed element which was fixed when I correctly closed the bold element</li>
-                        <li> b not being closed led to p,h2,h3,h6,hr being technically a child of b which is now allowed, and once I correctly closed b they were no longer a child of it.</li>
+                        <li> b not being closed led to p, h2, h3, h6, and hr being technically a child of b which is now allowed, and once I correctly closed b they were no longer a child of it.</li>
                         <li> There was an error that said there were unclosed elements within the closed body tag which is not allowed, so when I fixed the bold and the h6 closing tag that was corrected. </li>
 
                     </ul></li>
@@ -62,27 +52,22 @@
                     <li> The link in the interior section named "where do I go" was a broken link so I got the right link from the wikipedia.</li>
                     <li> Logic error: The structure of the page is not cohesive or organized. The heading sizes are not consistent as the history section is in h6 while the rest of the subsections are in h2 or h3. The closure was also in the wrong size and missing a thematic break. in general, I fixed the layout so it more acurately resembles the wikipedia page.</li>
                 </ol>
-            </li>
-            <li> Page 3:
+
+                <h2>Page 3:</h2>
                 <ol>
                     <li> It was missing the DOCTYPE title, so I added that to the very top above the any starter tags</li>
                     <li> It was also missing adding the lang=en to the html opening tag, so I put that into it.</li>
                     <li> There was no data within the head tag so I added the meta data, the title, and linked the css sheet</li>
                     <li> Logic error: The footer was in the middle of the page instead of the bottom, so I changed its position the position property in css document from absolute to relative to make it the same position as it is in the html document. </li>
                 </ol>
-            </li>
-            <li> Page 4:
+            <h2>Page 4:</h2>
                 <ol>
-                    <li> The page did not have a DOCTYLE at the top so I added that in.</li>
+                    <li> The page did not have a DOCTYPE at the top so I added that in.</li>
                     <li> None of the images had alt attributes so I added those descriptions in.</li>
                     <li> The orange cat was in the table but did not have any closing or starting td tags so I added them around the image</li>
                     <li> The dogs singing did not have a closing td tag so I added one.</li>
                     <li> The creature did not have an opening td tag so I added one</li>
                     <li> Logic error: The positioning of all the pictures did not match up with their labels so I fixed the columns so that the labels are correct to what is there.</li>
                 </ol>
-            </li>
-
-        </ul>
-
 </body>
 </html>
