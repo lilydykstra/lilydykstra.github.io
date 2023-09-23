@@ -37,21 +37,30 @@
                     <li> Another h2 issue was that the table tag was never closed only open so the above issue persisted and I added the /table closing tag after all the table data.</li>
                     <li> The image was not showing up because there was no specific foler to go into. I added the img folder for the correct pathway </li>
                     <li> There was no lang attribute in the html opening tag so I added one in for en</li>
+                    <li> There was no closing p tag after the "this div contains a nested paragraph" so I added one in.</li>
      
                 </ol>
             </li>
             <li> Page 2:
                 <ol>
-                    <li> The bolding of New Beehive Inn was not properly closed. There were the tags but no /b in them, so I added the content to correctly close it </li>
-                    <li> There was an closing p tag with open elements inside of it which was fixed when I added the /b into the closing bold element</li>
-                    <li> There was an unclosed element which was the incomplete bolded element and this error was fixed when I correctly clsoed the bold element</li>
-                    <li> Furthermore, because b wasn't closed p,h2,h3,h6,hr was technically a child of b which is now allowed, and this error was also fixed when correctly closing b</li>
-                    <li> There was an h2 element inside of a bold element which is redundant but also you cannot have h2 be a child of b so I deleted the b element.</li>
-                    <li> In the history section the h6 tag was not closed so I closed it.</li>
-                    <li> Additionally, because the h6 was not closed everything below it was a child of h6 which is not allowed for any of the elements.</li>
-                    <li> There was an error that said there were unclosed elements within the closed body tag which is not allowed, so when I fixed the bold and the h6 closing tag that was corrected. </li>
+                    <li> The bolding of New Beehive Inn was not properly closed. There were the tags but no /b in them, so I added the content to correctly close it. This /b not being closed properly led to other issues that got fixed when I closed the b element, like:</li>
+                    <ul>
+                        <li> There was an closing p tag with open elements inside, the b element, so it got fixed when added the closing tag.</li>
+                        <li> The b tag was an unclosed element which was fixed when I correctly closed the bold element</li>
+                        <li> b not being closed led to p,h2,h3,h6,hr being technically a child of b which is now allowed, and once I correctly closed b they were no longer a child of it.</li>
+                        <li> There was an error that said there were unclosed elements within the closed body tag which is not allowed, so when I fixed the bold and the h6 closing tag that was corrected. </li>
 
-                    <li> Logic error:</li>
+                    </ul>
+                
+                    <li> There was an h2 element inside of a bold element which is redundant but also you cannot have h2 be a child of b so I deleted the b element.</li>
+                    <li> In the history section the h6 tag was not closed so I closed it. This led to a few other problems like:</li>
+                    <ul>
+                        <li> Additionally, because the h6 was not closed everything below it was a child of h6 which is not allowed for any of the elements.</li>
+                        <li> There was an error that said there were unclosed elements within the closed body tag which is not allowed, so when I fixed the bold and the h6 closing tag that was corrected. </li>
+                    </ul>
+                    <li> The link in the description was broken so I found the right link from the wikipedia and fixed it</li>
+                    <li> The link in the interior section named "where do I go" was a broken link so I got the right link from the wikipedia.</li>
+                    <li> Logic error: The structure of the page is not cohesive or organized. The heading sizes are not consistent as the history section is in h6 while the rest of the subsections are in h2 or h3. The closure was also in the wrong size and missing a thematic break. in general, I fixed the layout so it more acurately resembles the wikipedia page.</li>
                 </ol>
             </li>
             <li> Page 3:
@@ -69,7 +78,7 @@
                     <li> The orange cat was in the table but did not have any closing or starting td tags so I added them around the image</li>
                     <li> The dogs singing did not have a closing td tag so I added one.</li>
                     <li> The creature did not have an opening td tag so I added one</li>
-                    <li> Logic error: </li>
+                    <li> Logic error: The positioning of all the pictures did not match up with their labels so I fixed the columns so that the labels are correct to what is there.</li>
                 </ol>
             </li>
 
