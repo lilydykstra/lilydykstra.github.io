@@ -63,7 +63,7 @@ footer {
     padding: 10px;
     background-color: #007bff;
     color: #fff;
-    position: absolute;
+    position: relative; /*changed this to relative from absolute to fix the footer in the middle of the page */
     bottom: 0;
     width: 100%;
 }
