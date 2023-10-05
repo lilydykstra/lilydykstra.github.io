@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/katieledecky.jpeg);
+    background-size: 100%;
+}
+
+.olympicrings{
+    position:absolute;
+    left:5mm;
+    filter: drop-shadow(3px 3px 3px black);
+    
+}
+
+.caption{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background-color: yellow;
+    line-height: 0;
+    background-size: 20%;
+    position:absolute;
+    left: 50mm;
+    top:10mm;
+    filter: drop-shadow(3px 3px 3px black);
+}
