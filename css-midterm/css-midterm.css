@@ -3,6 +3,9 @@ body {
     color: black;
     margin: 0;
     font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+
 
   }
 
@@ -13,6 +16,8 @@ text-align: center;
 background: #6B8F71;
 color: white;
 font-size: 25px;
+text-align: center;
+
 }
 
 .toptitle{
@@ -20,19 +25,65 @@ font-size: 25px;
     margin: 20px;
 }
 
-.descriptos{
-    width: 400px;
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1vw;
+}
+
+.titles{
+    width: 300px;
     background-color:#6B8F71;
     padding: 50px;
     margin: 20px;
+    border-radius: 25px;
     text-align: center;
-    /* display:grid;
-    grid-template-columns: 100px 100px;
-    column-gap:1px;
-    grid-template-rows: 100px 100px;
-    row-gap:1px; */
+}
+.titles .info {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
 }
 
+.titles .info::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    }
+
+.titles .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+    }
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  
 .details{
     text-align: left;
 }
@@ -41,7 +92,7 @@ font-size: 25px;
 display: none;
 }
 
-.titles:hover + .info {
-display: block;
-color: black;
+.titles:hover{
+    background-color:white;
 }
+
