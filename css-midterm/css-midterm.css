@@ -1,0 +1,102 @@
+body {
+    background-color: #AAD2BA;
+    color: black;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 3em;
+
+  }
+
+.descriptos{
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    /* display:grid;
+    grid-template-columns: 100px 100px;
+    column-gap:1px;
+    grid-template-rows: 100px 100px;
+    row-gap:1px; */
+}
+.info1 {
+display: none;
+}
+
+.title1:hover + .info1 {
+display: block;
+color: black;
+}
+
+
+.info2 {
+    display: none;
+    }
+    
+.title2:hover + .info2 {
+display: block;
+color: black;
+}
+
+.info3 {
+    display: none;
+    }
+    
+.title3:hover + .info3 {
+display: block;
+color: black;
+}
+
+.info4 {
+    display: none;
+    }
+    
+.title4:hover + .info4 {
+display: block;
+color: black;
+}
+
+.info5 {
+    display: none;
+    }
+    
+.title5:hover + .info5 {
+display: block;
+color: black;
+}
+
+.info6 {
+    display: none;
+    }
+    
+.title6:hover + .info6 {
+display: block;
+color: black;
+}
+
+.info7 {
+    display: none;
+    }
+    
+.title7:hover + .info7 {
+display: block;
+color: black;
+}
+
+.info8 {
+    display: none;
+    }
+    
+.title8:hover + .info8 {
+display: block;
+color: black;
+}
+
+.info9 {
+    display: none;
+    }
+    
+.title9:hover + .info9 {
+display: block;
+color: black;
+}
