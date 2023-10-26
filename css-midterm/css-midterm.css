@@ -521,7 +521,7 @@ body {
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -530,7 +530,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top:15%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -568,7 +568,7 @@ body {
 /* The actual popup */
 .popup2 .popuptext2 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -577,7 +577,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top: 10%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -615,7 +615,7 @@ body {
 /* The actual popup */
 .popup3 .popuptext3 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -624,7 +624,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top:12%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -663,7 +663,7 @@ body {
 /* The actual popup */
 .popup4 .popuptext4 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -672,7 +672,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top:10%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -712,7 +712,7 @@ body {
 /* The actual popup */
 .popup5 .popuptext5 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -721,7 +721,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top:6%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -761,7 +761,7 @@ body {
 /* The actual popup */
 .popup6 .popuptext6 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -769,8 +769,8 @@ body {
     border-radius: 25px;
     padding: 8px 20px;
     position: fixed;
-    top:12.5%;
-    left:15%;
+    top:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -810,7 +810,7 @@ body {
 /* The actual popup */
 .popup7 .popuptext7 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -819,7 +819,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top:15%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -859,7 +859,7 @@ body {
 /* The actual popup */
 .popup8 .popuptext8 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
@@ -868,7 +868,7 @@ body {
     padding: 8px 20px;
     position: fixed;
     top:5%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
@@ -908,16 +908,17 @@ body {
 /* The actual popup */
 .popup9 .popuptext9 {
     visibility: hidden;
-    width: 60vw;
+    width: 80vw;
     background-color: #1E352F;
     color: #fefbf1;
     font-size: 10px;
     text-align: center;
     border-radius: 25px;
     padding: 8px 20px;
+    align-items: center;
     position: fixed;
     top:12.5%;
-    left:15%;
+    left:5%;
     z-index: 1;
   }
   
