@@ -35,6 +35,8 @@ body {
     margin: 1vw;
 }
 
+/* BREAK */
+
 .popup {
     width: 300px;
     background-color:#6B8F71;
@@ -72,10 +74,389 @@ body {
     z-index: 1;
   }
   
-  
 /* Toggle this class - hide and show the popup */
 .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   }
+
+/* BREAK */
+
+  .popup2 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup2:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup2 .popuptext2 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup2 .show2 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+/* BREAK */
+
+  .popup3 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup3:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup3 .popuptext3 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup3 .show3 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+/* BREAK */
+
+
+.popup4 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup4:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup4 .popuptext4 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup4 .show4 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+
+/* BREAK */
+
+
+.popup5 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup5:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup5 .popuptext5 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup5 .show5 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+
+/* BREAK */
+
+
+.popup6 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup6:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup6 .popuptext6 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup6 .show6 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+
+/* BREAK */
+
+
+.popup7 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup7:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup7 .popuptext7 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup7 .show7 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+
+/* BREAK */
+
+
+.popup8 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup8:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup8 .popuptext8 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup8 .show8 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+/* BREAK */
+
+
+
+.popup9 {
+    width: 300px;
+    background-color:#6B8F71;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.popup9:hover{
+    background-color:#fefbf1;
+}
+
+/* The actual popup */
+.popup9 .popuptext9 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #1E352F;
+    color: #fefbf1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 20px;
+    position: fixed;
+    top:12.5%;
+    left:25%;
+    z-index: 1;
+  }
+  
+/* Toggle this class - hide and show the popup */
+.popup9 .show9 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
