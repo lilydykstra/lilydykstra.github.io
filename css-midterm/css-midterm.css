@@ -257,7 +257,7 @@ body {
     border-radius: 25px;
     padding: 8px 20px;
     position: fixed;
-    top:12.5%;
+    top: 5%;
     left:25%;
     z-index: 1;
   }
@@ -401,7 +401,7 @@ body {
     border-radius: 25px;
     padding: 8px 20px;
     position: fixed;
-    top:12.5%;
+    top:5%;
     left:25%;
     z-index: 1;
   }
