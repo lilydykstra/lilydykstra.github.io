@@ -30,8 +30,6 @@ function displayQuote(question) {
     const answerTxt = document.querySelector('#js-answer-text'); 
     questionTxt.textContent = question;
     answerTxt.textContent = '';
-
-
 }
 
 function displayAnswer() {
