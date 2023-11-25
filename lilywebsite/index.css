@@ -8,6 +8,10 @@ body {
 h1{
     text-align: center;
 }
+
+a {
+    color: #000000; /* Specify the color you want */
+}
 #navvy{
     height:50px;
 }
@@ -43,7 +47,7 @@ header {
 .circle {
     width: 200px;
     height: 50px;
-    background-color: #A4C3B2;
+    background-color: #D5CFE1;
     border-radius: 50%;
     position: absolute;
     left: 0.7%;
@@ -57,7 +61,25 @@ div {
     flex-grow: 1; /* Allow the div to grow and take up the available space */
 
 }
-
+.cf2{
+    text-align: center;
+}
+.web{
+    text-align: center;
+    width:70%;
+}
+.df{
+    text-align: center;
+    width:70%;
+}
+.image{
+    text-align: center;
+    width:70%;
+}
+.text{
+    text-align: center;
+    width:70%;
+}
 footer {
     background-color: #A4C3B2;
     color: black;
@@ -163,109 +185,66 @@ button {
     align-items: center; /* Center horizontally */
 }
 
-.classes {
-    width: 40%;
+.class1 {
+    width: 20%;
+    text-align: center;
+    background-color: #D5CFE1;
     border-radius: 20px;
-    font-size: 20px;
-    margin: 10px; /* Add margin for spacing between the boxes */
+    font-size: 30px;
+    margin: 10px; /* Add margin for spacing between the boxes */  
+    padding: 30px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+
+}
+.class2 {
+    width: 25%;
+    text-align: center;
+    background-color: #D5CFE1;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 10px; /* Add margin for spacing between the boxes */    
+    padding: 30px;
+    position: absolute;
+    left:52%;
+    top:18%;
+
 }
 #coding{
+    width: 30%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #D5CFE1;
     position: absolute;
-    top:35%;
-    left:50%;
+    top:40%;
+    left:17%;
+    font-size: 20px;
+    text-align:center;
+}
+#text1{
+    font-size: 30px;
+    position: absolute;
+    left:3%;
+    top:12%;
 }
 #design{
+    width: 30%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #D5CFE1;
     position: absolute;
-    top:35%;
-    left:18%;
-
-}
-
-.popup {
-    width: 300px;
-    background-color:#A4C3B2;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 25px;
+    top:40%;
+    left:52%;
+    font-size: 20px;
     text-align: center;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
 }
-
-.popup:hover{
-    background-color:#829c8e;
-}
-
-/* The actual popup */
-.popup .popuptext {
-    visibility: hidden;
-    width: 50vw;
-    background-color: #8db19d;
-    color: black;
-    text-align: center;
-    border-radius: 25px;
-    padding: 8px 20px;
+#text2{
+    font-size: 30px;
     position: absolute;
-    top:0%;
-    left:-100%;
-    z-index: 1;
-  }
-  
-/* Toggle this class - hide and show the popup */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-
-.popup2 {
-    width: 300px;
-    background-color:#A4C3B2;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 25px;
-    text-align: center;
-
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
+    left:20%;
+    top:12%;
 }
-
-.popup2:hover{
-    background-color:#829c8e;
-}
-
-.popup2 .popuptext2 {
-    visibility: hidden;
-    width: 50vw;
-    background-color: #8db19d;
-    color: black;
-    text-align: center;
-    border-radius: 25px;
-    padding: 8px 20px;
-    position: absolute;
-    top: 0%;
-    left: 10%;
-    z-index: 1;
-}
-  
-/* Toggle this class - hide and show the popup */
-.popup2 .show2 {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
 
 /* add media query to adjust for smaller screens */
 
