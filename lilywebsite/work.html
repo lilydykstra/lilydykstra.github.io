@@ -9,13 +9,13 @@
 </head>
 <body>
     <header>
-        <h1>Lily Dykstra's Work</h1>
+        <h1>WORK EXAMPLES</h1>
         <nav>
             <a href="../index.html">Home</a>
             <div class="dropdown">
                 <a href="work.html">Work</a>
                 <div class="dropdown-content">
-                    <a href="atls1300.html">Computational Foundations 1</a>
+                    <!-- <a href="atls1300.html">Computational Foundations 1</a> -->
                     <a href="atls2270.html">Computational Foundations 2</a>
                     <a href="atls2200.html">Web</a>
                     <a href="atls1100.html">Design Foundations</a>
@@ -26,31 +26,49 @@
          <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <div id="coding">
-        <h2> Coding Classes</h2>
-
-        <ul>
-            <li><a href="atls1300.html">Computational Foundations 1 (Python)</a></li>
-            <li><a href="atls2270.html"> Computational Foundations 2 (Python)</a></li>
-            <li><a href="atls2200.html">Web (HTML, CSS, JS)</a></li>
-        </ul>
+    <div class="container">
+        <div class="classes" id="coding">
+            <div class="popup" onclick="coding()">
+            <h3>Coding Classes</h3>
+            <div class="popuptext" id="myPopup">
+            <h3> Coding Classes</h3>
+            <ul>
+                <!-- <li><a href="atls1300.html">Computational Foundations 1 (Python)</a></li> -->
+                <li><a href="atls2270.html"> Computational Foundations 2 (Python)</a></li>
+                <li><a href="atls2200.html">Web (HTML, CSS, JS)</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    
+        <div class="classes" id="design">
+            <div class="popup2" onclick="design()">
+            <h3> Graphic Design Classes</h3>
+            <div class="popuptext2" id="myPopup2">
+            <h3> Graphic Design Classes</h3>
+            <ul>
+                <li><a href="atls1100.html">Design Foundations</a></li>
+                <li><a href="atls2100.html"> Image</a></li>
+                <li><a href="atls2300.html"> Text</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
     </div>
-
-    <div id="design">
-        <h2> Design Classes</h2>
-
-        <ul>
-            <li><a href="atls1100.html">Design Foundations</a></li>
-            <li><a href="atls2100.html"> Image</a></li>
-            <li><a href="atls2300.html"> Text</a></li>
-        </ul>
-    </div>
-
-
-    <footer>
-        <p>&copy; 2023 Your Website Name</p>
-        <p> lilykatdykstra@gmail.com</p>
-
+    <script>
+        function coding() {
+          var classes = document.getElementById("myPopup");
+          classes.classList.toggle("show");
+        }
+    </script>
+    <script>
+        function design() {
+            var classes = document.getElementById("myPopup2");
+            classes.classList.toggle("show2");
+        }
+        </script>
+    <footer>       
+        <p>&copy; 2023 www.lilydykstra.me/index.html</p>
     </footer>
 </body>
 </html>
