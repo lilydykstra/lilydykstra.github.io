@@ -80,6 +80,12 @@ div {
     text-align: center;
     width:70%;
 }
+
+.work {
+    text-align: center;
+    width:70%;
+
+}
 footer {
     background-color: #A4C3B2;
     color: black;
@@ -183,67 +189,6 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center; /* Center horizontally */
-}
-
-.class1 {
-    width: 20%;
-    text-align: center;
-    background-color: #D5CFE1;
-    border-radius: 20px;
-    font-size: 30px;
-    margin: 10px; /* Add margin for spacing between the boxes */  
-    padding: 30px;
-    position: absolute;
-    left: 20%;
-    top: 20%;
-
-}
-.class2 {
-    width: 25%;
-    text-align: center;
-    background-color: #D5CFE1;
-    border-radius: 20px;
-    font-size: 30px;
-    margin: 10px; /* Add margin for spacing between the boxes */    
-    padding: 30px;
-    position: absolute;
-    left:52%;
-    top:18%;
-
-}
-#coding{
-    width: 30%;
-    height: 40%;
-    border-radius: 20px;
-    background-color: #D5CFE1;
-    position: absolute;
-    top:40%;
-    left:17%;
-    font-size: 20px;
-    text-align:center;
-}
-#text1{
-    font-size: 30px;
-    position: absolute;
-    left:3%;
-    top:12%;
-}
-#design{
-    width: 30%;
-    height: 40%;
-    border-radius: 20px;
-    background-color: #D5CFE1;
-    position: absolute;
-    top:40%;
-    left:52%;
-    font-size: 20px;
-    text-align: center;
-}
-#text2{
-    font-size: 30px;
-    position: absolute;
-    left:20%;
-    top:12%;
 }
 
 /* add media query to adjust for smaller screens */
