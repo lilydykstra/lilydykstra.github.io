@@ -1,59 +1,84 @@
-async function populate() {
-    const requestURL =
-      "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
-    const request = new Request(requestURL);
-  
-    const response = await fetch(request);
-    const superHeroes = await response.json();
-  
-    populateHeader(superHeroes);
-    populateHeroes(superHeroes);
-  }
+//problem 1
+const employeeDetails = {
+    "employees" : [
+    {
+        "Name" : "Sam",
+        "Department": "Tech",
+        "Designation": "Manager",
+        "Salary": "40000",
+        "Raise Eligible": "True"
+    },
+    {    
+        "Name" : "Mary",
+        "Department": "Finance",
+        "Designation": "Trainee",
+        "Salary": "18500",
+        "Raise Eligible": "True"
+    },
+    {    
+        "Name" : "Bill",
+        "Department": "HR",
+        "Designation": "Executive",
+        "Salary": "21200",
+        "Raise Eligible": "False"}
+    ]
+};
 
-function populateHeader(obj) {
-    const header = document.querySelector("header");
-    const myH1 = document.createElement("h1");
-    myH1.textContent = obj.squadName;
-    header.appendChild(myH1);
+console.log("Problem #1")
+console.log(employeeDetails)
 
-    const myPara = document.createElement("p");
-    myPara.textContent = `Hometown: ${obj.homeTown} // Formed: ${obj.formed}`;
-    header.appendChild(myPara);
-  }
-
-
-function populateHeroes(obj) {
-const section = document.querySelector("section");
-const heroes = obj.members;
-
-for (const hero of heroes) {
-    const myArticle = document.createElement("article");
-    const myH2 = document.createElement("h2");
-    const myPara1 = document.createElement("p");
-    const myPara2 = document.createElement("p");
-    const myPara3 = document.createElement("p");
-    const myList = document.createElement("ul");
-
-    myH2.textContent = hero.name;
-    myPara1.textContent = `Secret identity: ${hero.secretIdentity}`;
-    myPara2.textContent = `Age: ${hero.age}`;
-    myPara3.textContent = "Superpowers:";
-
-    const superPowers = hero.powers;
-    for (const power of superPowers) {
-    const listItem = document.createElement("li");
-    listItem.textContent = power;
-    myList.appendChild(listItem);
+//problem 2
+const companyDetails = {
+    "company" : [
+    {
+        "Name" : "Tech Stars",
+        "Website": "www.techstars.site",
+        "Employees": employeeDetails
     }
+    ]
+};
+console.log("Problem #2")
+console.log(companyDetails)
 
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-    myArticle.appendChild(myList);
+//problem 3
+employeeDetails.employees[3]= {    
+        "Name" : "Anna",
+        "Department": "Tech",
+        "Designation": "Executive",
+        "Salary": "25600",
+        "Raise Eligible": "False"}
 
-    section.appendChild(myArticle);
+
+console.log("Problem #3")
+console.log(employeeDetails)
+
+//problem 4
+totalSalary = 0
+for (employees of employeeDetails.employees){
+        totalSalary += parseInt(employees.Salary);
 }
-}
+console.log("Problem #4")
+console.log('Total Salary: $',totalSalary)
 
-populate();
+//problem 5
+for (employees of employeeDetails.employees){
+    if (employees["Raise Eligible"] === "True"){
+        employees.Salary = employees.Salary*1.1
+        employees["Raise Eligible"] = "False"
+    }
+}
+console.log("Problem #5")
+console.log(employeeDetails)
+
+//problem 6
+const workingfromhome = ["Anna","Sam"]
+for ( employee of employeeDetails.employees){
+    if (workingfromhome.includes(employee.Name)){
+        employee.wfh = "True";
+    }    
+    else{
+        employee.wfh = "False";
+    }
+}
+console.log("Problem #6")
+console.log(employeeDetails)
