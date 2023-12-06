@@ -3,14 +3,13 @@
 // when clicked they go up a digit uptil 9 when it resets to 0
 
 document.addEventListener('DOMContentLoaded', function() {
-    const boxes = document.querySelectorAll('.box');
+  const boxes = document.querySelectorAll('.box');
 
-    boxes.forEach((box, index) => {
-      let value = 0;
-
-      box.addEventListener('click', function() {
-        value = (value + 1) % 10;
-        box.textContent = value;
-      });
+  boxes.forEach((box, index) => {
+    box.addEventListener('click', function() {
+      // Generate a random number between 0 and 9
+      const randomNumber = Math.floor(Math.random() * 10);
+      box.textContent = randomNumber;
     });
   });
+});
