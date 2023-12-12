@@ -13,3 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
+// if clear button gets clicked
+//   all number reset to 0
+
+// if submit button is clicked
+//   popup with "you submited you number"
