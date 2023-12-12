@@ -5,6 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #F7D6E0;
+    overflow: hidden; /* Ensure the whole bounce is visible */
+
   }
 .numberRow {
     display: flex;
@@ -24,8 +26,9 @@ body {
   margin: 10px;
   font-size: 40px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  animation: moveUpDown 2s linear infinite alternate;
 }
-
 
 p{
 font-size: 20px;
@@ -50,3 +53,14 @@ font-size: 20px;
 
 }
 
+.moving {
+  animation-play-state: running; /* Continue the animation when the box is moving */
+}
+
+@keyframes moveUpDown {
+  from{
+    margin-top: 40%;}
+  to{
+      margin-bottom: 40%;
+}
+}
