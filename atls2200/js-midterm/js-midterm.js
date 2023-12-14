@@ -17,7 +17,7 @@ boxes.forEach(box => {
     box.classList.toggle('moving');
 
     // Adjust the animation duration for each box
-    const duration = Math.random() * 2 + 0.3; // Random duration between 1 and 3 seconds
+    const duration = Math.random() * 2 + 0.3; 
     box.style.animationDuration = `${duration}s`;
   });
 });
