@@ -2,7 +2,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #efe8e8;
  
 }
 h1{
@@ -11,7 +11,13 @@ h1{
 
 a {
     color: #000000; /* Specify the color you want */
+    text-decoration: none; /* Removes underlines from all links */
+    transition: color 0.3s; /* Add a smooth transition for color changes */
 }
+a:hover {
+    color: red; /* Change the color on hover to your desired color */
+}
+
 #navvy{
     height:50px;
 }
@@ -27,7 +33,7 @@ a {
     left: 20px;
 }
 header {
-    background-color: #A4C3B2;
+    background-color: #efe8e8;
     color: black;
     font-size: 15px;
     height: 100px;
@@ -82,12 +88,20 @@ div {
 }
 
 .work {
-    text-align: center;
-    width:70%;
+    text-align: left;
+    width:90%;
+}
+.workcontainer{
+    display: flex;
 
 }
+.workcolumn{
+    flex: 1;
+    margin: 0 10px; /* Add some space between columns */
+}
+
 footer {
-    background-color: #A4C3B2;
+    background-color: #efe8e8;
     color: black;
     text-align: center;
     padding: 5px;
@@ -102,7 +116,7 @@ nav {
     text-align: center;
     width:100%;
     position: absolute;
-    top:50%;
+    top:55%;
     left:0%
 }
 
@@ -116,90 +130,35 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #5d8870;
+    background-color: #efe8e8;
+    color: gray;
 }
 
-/* Style for the dropdown menu */
-.dropdown {
-    display: inline-block;
-    position: relative; /* Adjusted positioning */
+
+/* Add this to your existing CSS file or create a new one */
+.image-carousel {
+    margin-top: 10px;
+    text-align: center;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%; /* Place the dropdown below the nav bar */
-    left: 54%; /* Center the dropdown */
-    transform: translateX(-50%); /* Center the dropdown */
-    background-color: #6d9d82;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-}
-
-.dropdown-content a:hover {
-    background-color: #A4C3B2;
-}
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
-
-.error {
-    color: red;
-    margin-top: 5px;
-}
-
-#contactForm{
-    padding: 50px;
-}
-
-.container {
+.carousel-container {
     display: flex;
-    flex-direction: row;
-    align-items: center; /* Center horizontally */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
-/* add media query to adjust for smaller screens */
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 10px; /* Adjust the margin to control spacing between images */
+    width: 20%; 
 
-/* Adjustments for smaller screens */
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-    }
-    
-    .classes {
-        width: 100%; /* Take up full width on smaller screens */
-    }
 }
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* #A4C3B2  */
