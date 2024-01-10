@@ -116,6 +116,73 @@ div {
 .katieimg{
     width: 70%;
 }
+
+.silly{
+    text-align: left;
+}
+
+.sillyimg{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    margin: 20px; 
+    width: 30%;
+}
+
+.sillyimg2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: 20px; 
+    width: 30%;
+}
+
+.dogimg{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    margin: 20px; 
+    width: 37%;
+}
+
+.dogimg2{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    margin: 20px; 
+    width: 40%;
+}
+.colsymimg{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    margin: 20px; 
+    width: 35%;
+}
+
+.colsymimg2{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    margin: 20px; 
+    width: 40%;
+}
+
+.phoneimg{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    margin: 20px; 
+    width: 38%;
+}
+
+.phoneimg2{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    margin: 20px; 
+    width: 40%;
+}
 .web{
     text-align: left;
 }
