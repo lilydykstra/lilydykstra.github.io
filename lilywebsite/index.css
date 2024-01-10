@@ -67,24 +67,66 @@ div {
     flex-grow: 1; /* Allow the div to grow and take up the available space */
 
 }
-.cf2{
-    text-align: center;
+.usaco{
+    text-align: left;
+}
+
+
+.usacoimg1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: 20px;
+    width: 35%;
+}
+/* .usacoimg2 {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    margin: 20px; 
+    width: 20%;
+
+} */
+.usacoimg3 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    margin: 20px; 
+    width: 35%;
+}
+.usacoimg4 {
+    position: absolute;
+    top: 63%;
+    left: 45%;
+    margin: 20px; 
+    width: 35%;
+
+}
+.usacoimg5 {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    margin: 20px; 
+    width: 40%;
+}
+.katie{
+    text-align: left;
+}
+
+.katieimg{
+    width: 70%;
 }
 .web{
-    text-align: center;
-    width:70%;
+    text-align: left;
 }
 .df{
-    text-align: center;
-    width:70%;
+    text-align: left;
 }
 .image{
-    text-align: center;
-    width:70%;
+    text-align: left;
 }
 .text{
-    text-align: center;
-    width:70%;
+    text-align: left;
 }
 
 .work {
