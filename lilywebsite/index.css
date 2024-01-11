@@ -50,7 +50,7 @@ header {
     top: 140px;
 
 }
-.circle {
+/* .circle {
     width: 200px;
     height: 50px;
     background-color: #D5CFE1;
@@ -59,7 +59,7 @@ header {
     left: 0.7%;
     top: 20%;
     
-}
+} */
 div {
     max-width: 1400px;
     margin: 0 auto;
