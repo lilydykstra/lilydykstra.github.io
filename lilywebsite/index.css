@@ -183,19 +183,100 @@ div {
     margin: 20px; 
     width: 40%;
 }
-.web{
-    text-align: left;
-}
-.df{
-    text-align: left;
-}
-.image{
-    text-align: left;
-}
-.text{
-    text-align: left;
+
+.typeimg{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    margin: 20px; 
+    width: 40%;
 }
 
+.hamburgimg{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    margin: 20px; 
+    width: 35%;
+}
+.posterimg{
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    margin: 20px; 
+    width: 25%;
+}
+
+.dreamsimg1{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    margin: 20px; 
+    width: 40%;
+}
+.dreamsimg2{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    margin: 20px; 
+    width: 40%;
+}
+.dreamsimg3{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    margin: 20px; 
+    width: 26%;
+}
+.mailerimg1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin: 20px; 
+    width: 26%;
+}
+.mailerimg2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: 20px; 
+    width: 26%;
+}
+.ovenimg1{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    margin: 20px; 
+    width: 25%;
+}
+.ovenimg2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin: 20px; 
+    width: 18%;
+}
+.ovenimg5{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin: 20px; 
+    width: 20%;
+}
+.ovenimg4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 20px; 
+    width: 25%;
+}
+.ovenimg3{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    margin: 20px; 
+    width: 23%;
+}
 .work {
     text-align: left;
     width:90%;
