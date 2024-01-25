@@ -8,6 +8,10 @@ body {
 h1{
     text-align: center;
 }
+.about{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 img{
     border: 5px solid white; /* Set the color of the border (#ff0000 is red in this example) */
     }
@@ -167,21 +171,21 @@ div {
 }
 .workdreamsimg1{
     position: absolute;
-    top: 230%;
+    top: 233%;
     left: 28%;
     margin: 20px;
     width: 25%;
 }
 .workdreamsimg2{
     position: absolute;
-    top: 230%;
+    top: 233%;
     left: 54%;
     margin: 20px;
     width: 25%;
 }
 .workdreamsimg3{
     position: absolute;
-    top: 230%;
+    top: 233%;
     left: 80%;
     margin: 20px;
     width: 16.7%;
@@ -231,6 +235,20 @@ div {
     width: 20%;
 }
 
+.birdgif{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin: 20px;
+    width: 35%;
+}
+.birdvid{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: 20px;
+    width: 35%;
+}
 .usaco{
     text-align: left;
 }
@@ -345,7 +363,13 @@ div {
     margin: 20px; 
     width: 40%;
 }
-
+.desertimg{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    margin: 20px; 
+    width: 50%;
+}
 .typeimg{
     position: absolute;
     top: 35%;
