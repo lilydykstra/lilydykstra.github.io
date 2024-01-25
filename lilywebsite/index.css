@@ -8,29 +8,34 @@ body {
 h1{
     text-align: center;
 }
-
+img{
+    border: 5px solid white; /* Set the color of the border (#ff0000 is red in this example) */
+    }
 a {
     color: #000000; /* Specify the color you want */
     text-decoration: none; /* Removes underlines from all links */
     transition: color 0.3s; /* Add a smooth transition for color changes */
 }
 a:hover {
-    color: red; /* Change the color on hover to your desired color */
+    color: gray; /* Change the color on hover to your desired color */
 }
 
-#navvy{
+/* #navvy{
     height:50px;
-}
-#navvy2{
-    position: absolute;
-    top:10px;
-}
+} */
+
 #basics{
     padding: 30px;
     font-size: 20px;
     width: 50%;
     position: absolute; 
-    left: 20px;
+    left: 40px;
+}
+.blogintro{
+    position: absolute;   
+    left: 20%; 
+    top: 40%;
+    font-size: 20px;
 }
 header {
     background-color: #efe8e8;
@@ -46,20 +51,20 @@ header {
 }
 #headshot{
     position: absolute;
-    right: 100px;
+    right: 120px;
     top: 140px;
+    border-radius: 10px;
+    border-color: white;
 
 }
-/* .circle {
-    width: 200px;
-    height: 50px;
-    background-color: #D5CFE1;
-    border-radius: 50%;
+#navvy{
+    height:50px;
+}
+#navvy2{
     position: absolute;
-    left: 0.7%;
-    top: 20%;
-    
-} */
+    top:10px;
+}
+
 div {
     max-width: 1400px;
     margin: 0 auto;
@@ -67,11 +72,168 @@ div {
     flex-grow: 1; /* Allow the div to grow and take up the available space */
 
 }
+
+.workkatieimg{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    margin: 20px;
+    width: 20%;
+}
+.workusacoimg{
+    position: absolute;
+    top: 125%;
+    left: 30%;
+    margin: 20px;
+    width: 37%;
+}
+.workovenimg{
+    position: absolute;
+    top: 125%;
+    left: 72%;
+    margin: 20px;
+    width: 20%;
+}
+.workbirdgif{
+    position: absolute;
+    top: 200%;
+    left: 52%;
+    margin: 20px;
+    width: 18%;
+}
+
+.workdesertimg{
+    position: absolute;
+    top: 72%;
+    left: 74%;
+    margin: 20px;
+    width: 20%;
+}
+.worksillyimg{
+    position: absolute;
+    top: 157%;
+    left: 73%;
+    margin: 20px;
+    width: 18%;
+}
+.worksillyimg2{
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    margin: 20px;
+    width: 20%;
+}
+.workcolsymimg{
+    position: absolute;
+    top: 73%;
+    left: 49%;
+    margin: 20px;
+    width: 20%;
+}
+.workphoneimg{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    margin: 20px;
+    width: 20%;
+}
+.workphoneimg2{
+    position: absolute;
+    top: 100%;
+    left: 49%;
+    margin: 20px;
+    width: 20%;
+}
+.worktypeimg{
+    position: absolute;
+    top: 97%;
+    left: 72%;
+    margin: 20px;
+    width: 25%;
+}
+.workhamburgimg{
+    position: absolute;
+    top: 138%;
+    left: 49%;
+    margin: 20px;
+    width: 20%;
+}
+.workposterimg{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    margin: 20px;
+    width: 18%;
+}
+.workdreamsimg1{
+    position: absolute;
+    top: 230%;
+    left: 28%;
+    margin: 20px;
+    width: 25%;
+}
+.workdreamsimg2{
+    position: absolute;
+    top: 230%;
+    left: 54%;
+    margin: 20px;
+    width: 25%;
+}
+.workdreamsimg3{
+    position: absolute;
+    top: 230%;
+    left: 80%;
+    margin: 20px;
+    width: 16.7%;
+}
+.workmailerimg1{
+    position: absolute;
+    top: 160%;
+    left: 7%;
+    margin: 20px;
+    width: 18%;
+}
+.workmailerimg2{
+    position: absolute;
+    top: 140%;
+    left: 28%;
+    margin: 20px;
+    width: 18%;
+}
+.workovenimg2{
+    position: absolute;
+    top: 160%;
+    left: 52%;
+    margin: 20px;
+    width: 15%;
+    transform: rotate(90deg); /* Adjust the angle of rotation (45deg in this example) */
+
+}
+.workovenimg4{
+    position: absolute;
+    top: 200%;
+    left: 30%;
+    margin: 20px;
+    width: 18%;
+}
+.workovenimg3{
+    position: absolute;
+    top: 195%;
+    left: 73%;
+    margin: 20px;
+    width: 20%;
+}
+.workappimg{
+    position: absolute;
+    top: 220%;
+    left: 5%;
+    margin: 20px;
+    width: 20%;
+}
+
 .usaco{
     text-align: left;
 }
-
-
 .usacoimg1 {
     position: absolute;
     top: 40%;
@@ -280,6 +442,7 @@ div {
 .work {
     text-align: left;
     width:90%;
+
 }
 .workcontainer{
     display: flex;
@@ -313,6 +476,7 @@ nav {
 nav a {
     color: black;
     font-size: 20px;
+    text-align: center;
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
@@ -352,3 +516,5 @@ nav a:hover {
 
 
 /* #A4C3B2  */
+
+
