@@ -8,6 +8,11 @@ body {
 h1{
     text-align: center;
 }
+.gallery{
+    position: absolute;
+    top: 77%;
+    left: 7%;
+}
 .about{
     margin-left: 5%;
     margin-right: 5%;
@@ -33,7 +38,8 @@ a:hover {
     font-size: 20px;
     width: 50%;
     position: absolute; 
-    left: 40px;
+    left: 5%;
+    top: 25%;
 }
 .blogintro{
     position: absolute;   
@@ -55,10 +61,11 @@ header {
 }
 #headshot{
     position: absolute;
-    right: 120px;
-    top: 140px;
+    right: 20%;
+    top: 25%;
     border-radius: 10px;
     border-color: white;
+    width: 20%;
 
 }
 #navvy{
@@ -79,28 +86,28 @@ div {
 
 .workkatieimg{
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 5%;
     margin: 20px;
     width: 20%;
 }
 .workusacoimg{
     position: absolute;
-    top: 125%;
+    top: 145%;
     left: 30%;
     margin: 20px;
     width: 37%;
 }
 .workovenimg{
     position: absolute;
-    top: 125%;
+    top: 145%;
     left: 72%;
     margin: 20px;
     width: 20%;
 }
 .workbirdgif{
     position: absolute;
-    top: 200%;
+    top: 220%;
     left: 52%;
     margin: 20px;
     width: 18%;
@@ -108,105 +115,105 @@ div {
 
 .workdesertimg{
     position: absolute;
-    top: 72%;
+    top: 92%;
     left: 74%;
     margin: 20px;
     width: 20%;
 }
-.worksillyimg{
+.worksillyimg1{
     position: absolute;
-    top: 157%;
+    top: 177%;
     left: 73%;
     margin: 20px;
     width: 18%;
 }
 .worksillyimg2{
     position: absolute;
-    top: 115%;
+    top: 135%;
     left: 5%;
     margin: 20px;
     width: 20%;
 }
 .workcolsymimg{
     position: absolute;
-    top: 73%;
+    top: 93%;
     left: 49%;
     margin: 20px;
     width: 20%;
 }
 .workphoneimg{
     position: absolute;
-    top: 90%;
+    top: 110%;
     left: 5%;
     margin: 20px;
     width: 20%;
 }
 .workphoneimg2{
     position: absolute;
-    top: 100%;
+    top: 120%;
     left: 49%;
     margin: 20px;
     width: 20%;
 }
 .worktypeimg{
     position: absolute;
-    top: 97%;
+    top: 117%;
     left: 72%;
     margin: 20px;
     width: 25%;
 }
 .workhamburgimg{
     position: absolute;
-    top: 138%;
+    top: 158%;
     left: 49%;
     margin: 20px;
     width: 20%;
 }
 .workposterimg{
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 28%;
     margin: 20px;
     width: 18%;
 }
 .workdreamsimg1{
     position: absolute;
-    top: 233%;
+    top: 253%;
     left: 28%;
     margin: 20px;
     width: 25%;
 }
 .workdreamsimg2{
     position: absolute;
-    top: 233%;
+    top: 253%;
     left: 54%;
     margin: 20px;
     width: 25%;
 }
 .workdreamsimg3{
     position: absolute;
-    top: 233%;
+    top: 253%;
     left: 80%;
     margin: 20px;
     width: 16.7%;
 }
 .workmailerimg1{
     position: absolute;
-    top: 160%;
+    top: 180%;
     left: 7%;
     margin: 20px;
     width: 18%;
 }
 .workmailerimg2{
     position: absolute;
-    top: 140%;
+    top: 160%;
     left: 28%;
     margin: 20px;
     width: 18%;
 }
 .workovenimg2{
     position: absolute;
-    top: 160%;
+    top: 180%;
     left: 52%;
     margin: 20px;
     width: 15%;
@@ -215,21 +222,21 @@ div {
 }
 .workovenimg4{
     position: absolute;
-    top: 200%;
+    top: 220%;
     left: 30%;
     margin: 20px;
     width: 18%;
 }
 .workovenimg3{
     position: absolute;
-    top: 195%;
+    top: 215%;
     left: 73%;
     margin: 20px;
     width: 20%;
 }
 .workappimg{
     position: absolute;
-    top: 220%;
+    top: 240%;
     left: 5%;
     margin: 20px;
     width: 20%;
@@ -466,6 +473,7 @@ div {
 .work {
     text-align: left;
     width:90%;
+    font-size: large;
 
 }
 .workcontainer{
@@ -473,8 +481,8 @@ div {
 
 }
 .workcolumn{
-    flex: 1;
-    margin: 0 10px; /* Add some space between columns */
+    flex: 2;
+    margin: 50px 10px; /* Add some space between columns */
 }
 
 footer {
