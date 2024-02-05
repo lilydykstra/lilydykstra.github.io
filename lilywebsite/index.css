@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #efe8e8;
- 
+    /* background-image: url(background.png);
+    background-size: 80%; */
 }
 h1{
     text-align: center;
+    font-size: 150%;
 }
 .gallery{
     position: absolute;
@@ -51,7 +53,7 @@ header {
     background-color: #efe8e8;
     color: black;
     font-size: 15px;
-    height: 100px;
+    height: 110px;
     text-align: center;
     padding: 10px;
     position: sticky;
@@ -61,11 +63,9 @@ header {
 }
 #headshot{
     position: absolute;
-    right: 20%;
-    top: 25%;
-    border-radius: 10px;
-    border-color: white;
-    width: 20%;
+    right: 10%;
+    top: 20%;
+    width: 25%;
 
 }
 #navvy{
@@ -486,7 +486,7 @@ div {
 }
 
 footer {
-    background-color: #efe8e8;
+    /* background-color: #efe8e8; */
     color: black;
     text-align: center;
     padding: 5px;
@@ -505,6 +505,7 @@ nav {
     left:0%
 }
 
+
 nav a {
     color: black;
     font-size: 20px;
@@ -514,39 +515,129 @@ nav a {
     margin: 0 10px;
     font-weight: bold;
 }
-
-nav a:hover {
-    background-color: #efe8e8;
+.hometab{
+    background-color: #f8d3fe;
+    border-radius: 30%;
+}
+.hometab:hover {
+    background-color: #f0b5f9;
+    color: gray;
+}
+.blogtab{
+    background-color: #98e6cd;
+    border-radius: 30%;
+}
+.blogtab:hover {
+    background-color: #6decc4;
+    color: gray;
+}
+.worktab{
+    background-color: #adc8fe;
+    border-radius: 30%;
+}
+.worktab:hover {
+    background-color: #87acf6;
+    color: gray;
+}
+.abouttab{
+    background-color: #fee2a1;
+    border-radius: 30%;
+}
+.abouttab:hover {
+    background-color: #f8d37d;
+    color: gray;
+}
+.contacttab{
+    background-color: #cebefe;
+    border-radius: 30%;
+}
+.contacttab:hover {
+    background-color: #b59ff7;
     color: gray;
 }
 
 
-/* Add this to your existing CSS file or create a new one */
-.image-carousel {
-    margin-top: 10px;
-    text-align: center;
+
+
+/* about page images */
+/* .swim1img{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin: 20px;
+    width: 25%;
+} */
+
+.swim2img{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    margin: 20px;
+    width: 15%;
 }
-
-.carousel-container {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+.meowimg{
+    position: absolute;
+    top: 28%;
+    left: 23%;
+    margin: 20px;
+    width: 20%;
 }
-
-.carousel-item {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    margin-right: 10px; /* Adjust the margin to control spacing between images */
-    width: 20%; 
-
+.bryceimg{
+    position: absolute;
+    top: 26%;
+    left: 45%;
+    margin: 20px;
+    width: 12%;
 }
-
-.carousel-item img {
-    width: 100%;
-    height: auto;
+.shadowsimg{
+    position: absolute;
+    top: 52%;
+    left: 4%;
+    margin: 20px;
+    width: 17%;
 }
-
-
+.tierafuegoimg{
+    position: absolute;
+    top: 52%;
+    left: 60%;
+    margin: 20px;
+    width: 13%;
+}
+.waterfallimg{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    margin: 20px;
+    width: 15%;
+}
+.cenoteimg{
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    margin: 20px;
+    width: 15%;
+}
+.mountaindudesimg{
+    position: absolute;
+    top: 57%;
+    left: 75%;
+    margin: 20px;
+    width: 18%;
+}
+.alpsimg{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    margin: 20px;
+    width: 15%;
+}
+.marseilleimg{
+    position: absolute;
+    top: 30%;
+    left: 77%;
+    margin: 20px;
+    width: 15%;
+}
 /* #A4C3B2  */
 
 
