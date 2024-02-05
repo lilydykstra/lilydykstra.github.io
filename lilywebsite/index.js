@@ -23,3 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
         link.style.color = '#000000'; // Set the text color to black
     });
 });
+

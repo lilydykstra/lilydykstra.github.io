@@ -538,6 +538,9 @@ nav a {
     margin: 0 10px;
     font-weight: bold;
 }
+nav a:hover {
+    filter: brightness(0.8); /* Reduce brightness to make color darker */
+}
 .hometab{
     background-color: #f8d3fe;
     border-radius: 30%;
