@@ -521,8 +521,29 @@ h1{
     width: 23%;
 }
 
+.mushroom-pdf embed {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    width: 30%;
+    height: 50%;
+}
 
+.mush-pdf1{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 30%;
+    height: 50%;
+}
 
+.mush-pdf2{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 30%;
+    height: 50%;
+}
 /* work page columns */
 .work {
     text-align: left;
