@@ -24,6 +24,7 @@ a {
 }
 a:hover {
     color: gray; /* Change the color on hover to your desired color */
+    text-decoration: underline;
 }
 
 #navvy{
@@ -483,6 +484,43 @@ h1{
     margin: 20px; 
     width: 23%;
 }
+
+.plat1{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    margin: 20px; 
+    width: 25%;
+}
+.plat2{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    margin: 20px; 
+    width: 20%;
+}
+.plat3{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin: 20px; 
+    width: 20%;
+}
+.plat4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 20px; 
+    width: 25%;
+}
+.plat5{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    margin: 20px; 
+    width: 23%;
+}
+
 
 
 /* work page columns */
