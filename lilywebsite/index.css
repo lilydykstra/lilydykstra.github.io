@@ -557,17 +557,62 @@ h1{
 }
 
 
-.mushroom-pdf embed {
+.mush1{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    margin: 20px; 
+    width: 12%;
+}
+.mush2{
     position: absolute;
     top: 40%;
-    left: 2%;
-    width: 30%;
-    height: 50%;
+    left: 15%;
+    margin: 20px; 
+    width: 12%;
 }
+.mush3{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin: 20px; 
+    width: 12%;
+}
+
+
+.flower1{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    margin: 20px; 
+    width: 12%;
+}
+.flower2{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    margin: 20px; 
+    width: 15%;
+}
+.flower3{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin: 20px; 
+    width: 15%;
+}
+.flower4{
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    margin: 20px; 
+    width:15%;
+}
+
 
 .mush-pdf1{
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 15%;
     width: 30%;
     height: 50%;
@@ -575,7 +620,7 @@ h1{
 
 .mush-pdf2{
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 55%;
     width: 30%;
     height: 50%;
