@@ -520,6 +520,42 @@ h1{
     margin: 20px; 
     width: 23%;
 }
+.print1{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    margin: 20px; 
+    width: 18%;
+}
+.print6{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    margin: 20px; 
+    width: 18%;
+}
+.print3{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    margin: 20px; 
+    width: 18%;
+}
+.print4{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    margin: 20px; 
+    width: 18%;
+}
+.print5{
+    position: absolute;
+    top: 25%;
+    left: 73%;
+    margin: 20px; 
+    width: 18%;
+}
+
 
 .mushroom-pdf embed {
     position: absolute;
@@ -544,6 +580,9 @@ h1{
     width: 30%;
     height: 50%;
 }
+
+
+
 /* work page columns */
 .work {
     text-align: left;
