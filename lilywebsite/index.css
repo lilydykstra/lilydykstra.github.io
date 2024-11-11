@@ -145,7 +145,7 @@ h1{
 }
 .workcolsymimg{
     position: absolute;
-    top: 93%;
+    top: 85%;
     left: 49%;
     margin: 20px;
     width: 20%;
@@ -159,7 +159,7 @@ h1{
 }
 .workphoneimg2{
     position: absolute;
-    top: 120%;
+    top: 112%;
     left: 49%;
     margin: 20px;
     width: 20%;
@@ -180,7 +180,7 @@ h1{
 }
 .workposterimg{
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 28%;
     margin: 20px;
     width: 18%;
@@ -831,3 +831,140 @@ nav a:hover {
     width: 19%;
 }
 
+
+
+.bag1{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    margin: 20px;
+    width: 15%;
+}
+.bag2{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    margin: 20px;
+    width: 15%;
+}
+.bag5{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: 20px;
+    width: 15%;
+}
+.bag4{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    margin: 20px;
+    width: 15%;
+}
+.bag3{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    margin: 20px;
+    width: 15%;
+}
+
+
+.top1{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    margin: 20px;
+    width: 15%;
+}
+.top2{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    margin: 20px;
+    width: 15%;
+}
+.top3 {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    margin: 20px;
+    width: 15%;
+}
+
+
+.top4{
+    position: absolute;
+    top: 123%;
+    left: 30%;
+    margin: 20px;
+    width: 15%;
+}
+.top5 {
+    position: absolute;
+    top: 123%;
+    left: 50%;
+    margin: 20px;
+    width: 15%;
+}
+
+
+
+.top6{
+    position: absolute;
+    top: 157%;
+    left: 10%;
+    margin: 20px;
+    width: 15%;
+}
+.top7 {
+    position: absolute;
+    top: 157%;
+    left: 30%;
+    margin: 20px;
+    width: 15%;
+}
+.top8{
+    position: absolute;
+    top: 157%;
+    left: 50%;
+    margin: 20px;
+    width: 15%;
+}
+.top9 {
+    position: absolute;
+    top: 157%;
+    left: 70%;
+    margin: 20px;
+    width: 15%;
+}
+
+
+/* .pillow1{
+    position: absolute;
+    top: 165%;
+    left: 2%;
+    margin: 20px;
+    width: 15%;
+} */
+.pillow2 {
+    position: absolute;
+    top: 200%;
+    left: 20%;
+    margin: 20px;
+    width: 15%;
+}
+.pillow3{
+    position: absolute;
+    top: 200%;
+    left: 40%;
+    margin: 20px;
+    width: 15%;
+}
+.pillow4 {
+    position: absolute;
+    top: 200%;
+    left: 60%;
+    margin: 20px;
+    width: 15%;
+}
