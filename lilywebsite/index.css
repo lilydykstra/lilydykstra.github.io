@@ -12,7 +12,6 @@ body {
 }
 
 
-
 /* universal */
 img{
     border: 5px solid white; /* Set the color of the border (#ff0000 is red in this example) */
@@ -84,15 +83,232 @@ h1{
 
 
 
+/*GFIEX */
+/* General Styling */
+
+.gfiexheader {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    width: 50%;
+}
+.gfieximg {
+    display: block;  /* Make the image a block element */
+    margin: 0 auto;  /* Center the image horizontally */
+    max-width: 70%;  /* Optional: Ensure it doesn't overflow its container */
+    height: auto;  /* Maintain aspect ratio */
+    border: none !important;  /* Force removal of the border */
+}
+
+
+.g-section {
+    margin-top: 40px;
+    align-items: center;
+}
+
+#g-titles1 {
+    text-align: center;
+}
+
+/* Grid layout for the section */
+.g-grid {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    gap: 20px; /* Space between items */
+}
+
+/* Style for each div within the grid */
+.g-grid > div {
+    display: flex; /* Flexbox for items inside the div */
+    flex-direction: column; /* Stack images and text vertically */
+    justify-content: flex-start; /* Align the content at the top */
+    align-items: center; /* Center align images and text */
+    gap: 10px; /* Space between text and images */
+    flex: 1; /* Ensure each div takes equal space */
+}
+
+/* Optional: Styling for the images to make sure they don't overflow */
+.g-image-container img {
+    width: 100%; /* Adjust to the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Images and Videos */
+.g-grid img {
+    width: 60%; /* Ensure images fill the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the whole image fits inside the cell */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    display: block; /* Ensures no inline spacing affects centering */
+    margin: 0 auto; /* Centers images horizontally */
+}
+
+
+.g-video-row {
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Distribute space between items */
+    gap: 20px; /* Optional: Add space between videos */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    align-items: center; /* Center the videos vertically if needed */
+
+}
+
+.g-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    flex: 1; /* Allow each video container to flex */
+    max-width: 33%; /* Limit the container's width to a maximum of 33% */
+    box-sizing: border-box; /* Ensure padding/margins don't affect width */
+}
+
+.g-video-container video {
+    width: 50%; /* Ensure the video takes up the container's full width */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    align-items: center; /* Center align images and text */
+
+}
+
+#g-titles {
+    grid-column: 1 / -1; /* Ensure the text spans the entire row */
+    text-align: left;
+}
+
+
+
+
+
+
+/* CIRGO!!!!!!! */
+
+.cirgoheader {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    width: 30%;
+}
+.cirgoimg {
+    display: block;  /* Make the image a block element */
+    margin: 0 auto;  /* Center the image horizontally */
+    max-width: 70%;  /* Optional: Ensure it doesn't overflow its container */
+    height: auto;  /* Maintain aspect ratio */
+    border: none !important;  /* Force removal of the border */
+}
+
+.c-section {
+    margin-top: 40px;
+    align-items: center;
+}
+
+#c-titles1 {
+    text-align: center;
+}
+
+/* Grid layout for the section */
+.c-grid {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    gap: 20px; /* Space between items */
+}
+
+/* Style for each div within the grid */
+.c-grid > div {
+    display: flex; /* Flexbox for items inside the div */
+    flex-direction: column; /* Stack images and text vertically */
+    justify-content: flex-start; /* Align the content at the top */
+    align-items: center; /* Center align images and text */
+    gap: 10px; /* Space between text and images */
+    flex: 1; /* Ensure each div takes equal space */
+}
+
+/* Optional: Styling for the images to make sure they don't overflow */
+.c-image-container img {
+    width: 100%; /* Adjust to the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Images and Videos */
+.c-grid img {
+    width: 60%; /* Ensure images fill the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the whole image fits inside the cell */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    display: block; /* Ensures no inline spacing affects centering */
+    margin: 0 auto; /* Centers images horizontally */
+}
+
+
+.c-video-row {
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Distribute space between items */
+    gap: 20px; /* Optional: Add space between videos */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    align-items: center; /* Center the videos vertically if needed */
+
+}
+
+.c-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    flex: 1; /* Allow each video container to flex */
+    max-width: 33%; /* Limit the container's width to a maximum of 33% */
+    box-sizing: border-box; /* Ensure padding/margins don't affect width */
+}
+
+.c-video-container video {
+    width: 100%; /* Ensure the video takes up the container's full width */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    align-items: center; /* Center align images and text */
+
+}
+
+#c-titles {
+    grid-column: 1 / -1; /* Ensure the text spans the entire row */
+    text-align: left;
+}
+
+
+
 
 
 
 /* gallery photos */
-.gallery{
+#gallery{
     position: absolute;
-    top: 77%;
+    top: 68%;
     left: 7%;
+    font-size: 30px;
 }
+.gallery {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Fewer, larger columns */
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+    align-items: center; /* Vertically align all items */
+}
+
+.photo-grid img {
+    width: 100%; /* Fill the grid cell width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the whole image fits inside the cell */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    display: block; /* Ensures no inline spacing affects centering */
+    margin: 0 auto; /* Centers images horizontally */
+}
+
+
+/* 
 .workkatieimg{
     position: absolute;
     top: 85%;
@@ -226,7 +442,7 @@ h1{
     left: 52%;
     margin: 20px;
     width: 15%;
-    transform: rotate(90deg); /* Adjust the angle of rotation (45deg in this example) */
+    transform: rotate(90deg); /* Adjust the angle of rotation (45deg in this example)
 }
 .workovenimg4{
     position: absolute;
@@ -249,7 +465,7 @@ h1{
     margin: 20px;
     width: 20%;
 }
-
+  */
 
 
 
@@ -645,11 +861,14 @@ h1{
 }
 .workcontainer{
     display: flex;
-
+    justify-content: space-between; /* Evenly space columns */
+    flex-wrap: wrap; /* Ensure it wraps if necessary on smaller screens */
 }
+
 .workcolumn{
-    flex: 2;
+    flex: 1;
     margin: 50px 10px; /* Add some space between columns */
+    max-width: 18%; /* Ensure columns fit within the container (5 columns = ~20% each with spacing) */
 }
 
 

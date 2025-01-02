@@ -24,3 +24,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+        const grid = document.querySelector(".photo-grid");
+        const images = Array.from(grid.children);
+
+        // Shuffle the images
+        images.sort(() => Math.random() - 0.5);
+
+        // Re-append images to the grid in the new order
+        images.forEach((img) => grid.appendChild(img));
+    });
